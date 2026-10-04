@@ -35,7 +35,7 @@ table th {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  color: grey;
+  color: #494d56;
   font-weight: 600;
   margin-bottom: 19px;
 }
@@ -43,9 +43,9 @@ h2 {
 h3 {
   text-align: center;
   text-transform: uppercase;
-  color: grey;
+  color: #494d56;
   font-weight: 600;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .visually_hidden {
@@ -61,7 +61,7 @@ h3 {
 
 .header_table {
   background-color: #6699ff;
-  border-width: 3px;
+  border-width: 1px 1px 5px 1px;
   border-color: #6699ff;
   border-style: solid;
   width: 800px;
@@ -94,13 +94,14 @@ h3 {
 }
 
 #shapka {
-  line-height: 1.25rem;
-  letter-spacing: 0.09px;
-  padding-top: 13px;
+  line-height: 1.15rem;
+  letter-spacing: 0;
+  padding-left: 2px;
+  padding-top: 25px;
 }
 
 #slogan {
-  padding: 5px 0 5px 0;
+  padding: 0px 0 5px 0;
 }
 
 .main_table {
@@ -122,8 +123,8 @@ h3 {
   border-bottom: 2px solid gray;
   font-family: Tahoma, sans-serif;
   font-size: 0.7rem;
-  letter-spacing: 0.81px;
-  line-height: 0.82rem;
+  letter-spacing: 0.74px;
+  line-height: 0.85rem;
   margin-bottom: 18px;
 }
 
@@ -142,28 +143,28 @@ ul {
   /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
   font-family: Tahoma, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.93px;
-  line-height: 1.01rem;
+  letter-spacing: 1px;
   margin-bottom: 12px;
 }
 
 ul li {
   margin: 0;
-  padding: 0;
+  padding: 2px 0 0 0;
+  line-height: 14.88px;
 }
 
 ol {
-  font-size: 0.8rem;
-  padding-left: 36px;
+  font-size: 0.84rem;
+  padding-left: 40px;
   padding-right: 15px;
   margin-left: 0;
-  margin-bottom: 13px;
-  line-height: 1rem;
+  margin-bottom: 14px;
+  line-height: 1.09rem;
 }
 
 ol li {
-  padding-left: 5px;
-  letter-spacing: 0.21px;
+  padding-left: 0;
+  letter-spacing: 0.53px;
 }
 
 ol li a {
@@ -172,13 +173,14 @@ ol li a {
 
 .foot {
   color: white;
-  font-size: 0.6rem;
+  font-size: 0.68rem;
   text-align: center;
   background-color: #6699ff;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.25px;
   font-weight: 400;
 }
 
 .foot td {
   border-top: 3px solid #6699ff;
+  border-bottom: 3px solid #6699ff;
 }
