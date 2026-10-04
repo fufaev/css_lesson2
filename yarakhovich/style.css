@@ -1,0 +1,186 @@
+body,
+table,
+tr,
+th,
+td,
+p,
+h1,
+h2,
+h3,
+ul,
+ol,
+li {
+  margin-top: 0;
+}
+
+body {
+  /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
+  font-family: Verdana, sans-serif;
+  color: #06389e;
+  background-color: #e6e6e6;
+}
+
+/* Замена атрибута cellspacing="0" */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Замена атрибута cellpadding="0" */
+table td,
+table th {
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #494d56;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #494d56;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.header_table {
+  background-color: #6699ff;
+  border-width: 1px 1px 5px 1px;
+  border-color: #6699ff;
+  border-style: solid;
+  width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+/* Замена атрибута valign="center" */
+.header_table tr {
+  vertical-align: middle;
+}
+
+.header_table img {
+  display: block;
+  width: 100px;
+  height: 187px;
+}
+
+.header_table_logo {
+  width: 100px;
+}
+
+#shapka,
+#slogan {
+  /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#shapka {
+  line-height: 1.15rem;
+  letter-spacing: 0;
+  padding-left: 2px;
+  padding-top: 25px;
+}
+
+#slogan {
+  padding: 0px 0 5px 0;
+}
+
+.main_table {
+  background-color: white;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 0;
+  border-color: #6699ff;
+  border-style: solid;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 10px 15px 10px 15px;
+  text-align: justify;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  font-family: Tahoma, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.74px;
+  line-height: 0.85rem;
+  margin-bottom: 18px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #494d56;
+  font-weight: bolder;
+}
+
+ul,
+.content {
+  font-size: 0.7em;
+}
+
+ul {
+  /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
+  font-family: Tahoma, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+ul li {
+  margin: 0;
+  padding: 2px 0 0 0;
+  line-height: 14.88px;
+}
+
+ol {
+  font-size: 0.84rem;
+  padding-left: 40px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-bottom: 14px;
+  line-height: 1.09rem;
+}
+
+ol li {
+  padding-left: 0;
+  letter-spacing: 0.53px;
+}
+
+ol li a {
+  color: gray;
+}
+
+.foot {
+  color: white;
+  font-size: 0.68rem;
+  text-align: center;
+  background-color: #6699ff;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+}
+
+.foot td {
+  border-top: 3px solid #6699ff;
+  border-bottom: 3px solid #6699ff;
+}
