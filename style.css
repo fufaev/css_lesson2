@@ -23,3 +23,17 @@ h2, h3 {
     font-size: 0.6em;
     text-align: center;
 }
+ul, .content {
+    font-size: 0.7em;
+}
+ul {
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+.content {
+    padding: 10px 15px 10px 15px;
+    text-align: justify;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
