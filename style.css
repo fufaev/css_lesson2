@@ -3,6 +3,7 @@ body {
     color: #06389e;
     background-color: #e6e6e6;
     margin-top: 0;
+    align-self: center;
 }
 h2, h3 {
     text-align: center;
@@ -14,6 +15,10 @@ h2, h3 {
     text-align: center;
     color: white;
     font-weight: bold;
+    letter-spacing: -0.033px;
+    word-spacing: 0.3px;
+    padding-top: 3px;
+    line-height: 1.25;
 }
 #slogan {
     padding: 5px 0 5px 0;
@@ -22,20 +27,26 @@ h2, h3 {
     color: white;
     font-size: 0.6em;
     text-align: center;
+    letter-spacing: 0.8px;
+    word-spacing: -0.73px;
 }
 ul, .content {
     font-size: 0.7em;
 }
 ul {
     font-family: Tahoma;
-    letter-spacing: 1px;
-    line-height: 1.5em;
+    letter-spacing: 1.1px;
+    line-height: 1.45em;
+    word-spacing: -1.5px;
 }
 .content {
     padding: 10px 15px 10px 15px;
     text-align: justify;
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
+    line-height: 1.15;
+    letter-spacing: -0.2px;
+    word-spacing: 2.8px;
 }
 .content a {
     text-decoration: none;
@@ -47,4 +58,9 @@ ol {
 }
 ol li a {
     color: gray;
+    line-height: 16.5px;
+    letter-spacing: 0.2px;
+}
+h2 {
+    margin-top: -1px;
 }
