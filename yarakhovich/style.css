@@ -1,24 +1,157 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #06389e;
-    background-color: #e6e6e6;
-    margin-top: 0;
+body,
+table,
+tr,
+th,
+td,
+p,
+h2,
+h3,
+ul,
+ol,
+li {
+  margin-top: 0;
 }
 
-#shapka, #slogan {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    font-weight: bold;
+body {
+  /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
+  font-family: Verdana, sans-serif;
+  color: #06389e;
+  background-color: #e6e6e6;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+
+/* Замена атрибута cellspacing="0" */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Замена атрибута cellpadding="0" */
+table td,
+table th {
+  padding: 0;
+}
+
+#shapka,
+#slogan {
+  /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#shapka {
+  line-height: 1.25rem;
+  letter-spacing: 0.09px;
+  padding-top: 13px;
 }
 
 #slogan {
-    padding: 5px 0 5px 0;
+  padding: 5px 0 5px 0;
 }
 
 .foot {
-    color: white;
-    font-size: 0.6rem;
-    text-align: center;
-    background-color: #6699ff
+  color: white;
+  font-size: 0.6rem;
+  text-align: center;
+  background-color: #6699ff;
+  letter-spacing: 0.7px;
+  font-weight: 400;
+}
+
+.foot td {
+  border-top: 3px solid #6699ff;
+}
+
+ul,
+.contrnt {
+  font-size: 0.7em;
+}
+
+ul {
+  /* sans-serif - подстраховочное правило (семейство шрифтов без засечек) */
+  font-family: Tahoma, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.93px;
+  line-height: 1.01rem;
+  margin-bottom: 12px;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 10px 15px 10px 15px;
+  text-align: justify;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  font-family: Tahoma, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.81px;
+  line-height: 1.17em;
+  margin-bottom: 18px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #494d56;
+  font-weight: bolder;
+}
+
+ol {
+  font-size: 0.8rem;
+  padding-left: 36px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-bottom: 13px;
+}
+
+ol li {
+  padding-left: 5px;
+  letter-spacing: 0.21px;
+}
+
+ol li a {
+  color: gray;
+}
+
+.main_table {
+  background-color: white;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 0;
+  border-color: #6699ff;
+  border-style: solid;
+}
+
+.header_table {
+  background-color: #6699ff;
+  border-width: 3px;
+  border-color: #6699ff;
+  border-style: solid;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header_table img {
+  display: block;
 }
