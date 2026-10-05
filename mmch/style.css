@@ -19,6 +19,7 @@ h2, h3 {
     word-spacing: 0.3px;
     padding-top: 3px;
     line-height: 1.25;
+    background-color: #6699ff;
 }
 #slogan {
     padding: 5px 0 5px 0;
@@ -63,4 +64,10 @@ ol li a {
 }
 h2 {
     margin-top: -1px;
+}
+#main-table {
+    background-color: white;
+}
+#top-table {
+    background-color: #6699ff;
 }
