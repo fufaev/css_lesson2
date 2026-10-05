@@ -50,6 +50,9 @@ ul {
 ol {
     font-size: 0.8em;
 }
+  .fon {
+      background-color: white;
+  }
 
 ol li a {
     color: gray;
