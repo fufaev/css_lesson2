@@ -9,3 +9,13 @@ h2, h3 {
     text-transform: uppercase;
     color: #494d56;
 }
+#shapka, #slogan {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#slogan {
+    padding: 5px 0 5px 0;
+}
